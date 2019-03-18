@@ -3,6 +3,8 @@
 [![Gitter](https://badges.gitter.im/CircuitVerse/community.svg)](https://gitter.im/CircuitVerse/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 [![CircleCI](https://circleci.com/gh/CircuitVerse/CircuitVerse.svg?style=svg)](https://circleci.com/gh/CircuitVerse/CircuitVerse)
 
+[Join Mailing List](https://circuitverse.us20.list-manage.com/subscribe?u=89207abda49deef3ba56f1411&id=29473194d6)
+
 ## Versions
 
 - Ruby Version: ruby-2.5.1
@@ -28,8 +30,8 @@ Please go through the [Contribution Guidelines](CONTRIBUTING.md) before going fo
 **Note:** You might want to use the docker instructions if you do not want to setup your own environment.
 
 * Install ruby using RVM, use ruby-2.5.1
-* Install Dependencies: `bundle install --with mysql` (If you wanto use pg use `bundle install --with pg`)
-* Configure your DB in config/database.yml, copy config/database.yml.example
+* Install Dependencies: `bundle install ` 
+* Configure your DB in config/database.yml, copy config/database.example.yml (Note : check for postgres password and update it in place of "postgres")
 * Create database: `rails db:create`
 * Run Migrations: `rails db:migrate`
 * At this point, local development can be started with ```rails s -b 127.0.0.1 -p 8080```
